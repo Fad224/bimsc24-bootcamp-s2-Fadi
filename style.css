@@ -1,0 +1,49 @@
+html{
+/* Sample comment */
+    background-color: gray;
+    color: rgb(0, 0, 0);
+
+body{
+    margin: 0%
+}
+
+div{
+
+    /* box border inside container*/
+    box-sizing: border-box;
+}
+
+#navbar{
+    height: 50px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+
+#flex{
+    display: flex;
+    height: calc(100vh - 50px)
+}
+
+#sidebar{
+
+    width: 200px;
+}
+
+#main{
+    width: calc(100% - 200px);
+    background-color: rgb(182, 182, 182);
+    }
+
+.container{
+
+    border-style: dotted;
+    border-color: rgb(95, 4, 4) ;
+}
+
+
+
+
+} 
